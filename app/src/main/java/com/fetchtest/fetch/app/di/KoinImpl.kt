@@ -1,6 +1,5 @@
 package com.fetchtest.fetch.app.di
 
-import com.fetchtest.fetch.data.repository.DataRepository
 import com.fetchtest.fetch.data.repository.DataRepositoryImpl
 import com.fetchtest.fetch.data.source.remote.GetFetchListApi
 import com.fetchtest.fetch.data.source.remote.RemoteSourceImpl

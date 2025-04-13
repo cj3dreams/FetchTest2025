@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Fetch Test</string>
+    <string name="smthWrong">Something has gone wrong</string>
+    <string name="update">Updating</string>
 </resources>

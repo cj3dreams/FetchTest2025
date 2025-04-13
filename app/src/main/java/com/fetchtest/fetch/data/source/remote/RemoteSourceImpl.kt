@@ -3,7 +3,6 @@ package com.fetchtest.fetch.data.source.remote
 import com.fetchtest.fetch.data.model.MainModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import okhttp3.Dispatcher
 
 class RemoteSourceImpl(private val api: GetFetchListApi): RemoteSource {
     override suspend fun getFetchListFromRemote(): RemoteResult<List<MainModel>> =

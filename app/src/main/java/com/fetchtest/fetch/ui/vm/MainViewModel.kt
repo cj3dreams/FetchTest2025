@@ -21,9 +21,9 @@ class MainViewModel(private val dataRepository: DataRepositoryImpl): ViewModel()
         when(val remoteResult = getFetchListFromRemoteUseCase.invoke()) {
             is RemoteResult.Success -> {
                 val response = remoteResult.data
-                _fetchListLiveData.postValue(response)/// sort here
+                _fetchListLiveData.postValue(response)
             }
-            is RemoteResult.Error ->_fetchListLiveData.postValue(null)
+            is RemoteResult.Error -> _fetchListLiveData.postValue(null)
     }
     }
 }

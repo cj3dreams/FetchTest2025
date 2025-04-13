@@ -45,11 +45,12 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    //Retrofit+Interceptor
+    //Retrofit+Interceptor+Koin+Coroutines
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.interceptor)
     implementation(libs.koin.android)
     implementation(libs.koin.test)
     implementation(libs.coroutines)
+    implementation (libs.androidx.swiperefreshlayout)
 }
