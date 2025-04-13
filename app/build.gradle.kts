@@ -49,9 +49,7 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.interceptor)
-    //Koin
-    implementation(platform(libs.koin.bom))
-    implementation(libs.koin.androidx)
-    implementation(libs.koin.core)
-    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.koin.android)
+    implementation(libs.koin.test)
+    implementation(libs.coroutines)
 }
